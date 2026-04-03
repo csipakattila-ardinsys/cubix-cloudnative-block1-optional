@@ -1,4 +1,4 @@
-name: run unit tests on feature branch push
+name: run integration tests on pull requests targeting main
 on:
   pull_request:
     branches:

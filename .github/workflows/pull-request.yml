@@ -1,6 +1,9 @@
 name: run integration tests
 on:
   pull_request:
+    types:
+      - opened
+      - reopened
     branches:
       - main
   push:

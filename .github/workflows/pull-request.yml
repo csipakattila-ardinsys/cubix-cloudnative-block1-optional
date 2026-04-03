@@ -1,4 +1,4 @@
-name: run integration tests on pull requests targeting main
+name: run integration tests
 on:
   pull_request:
     branches:
